@@ -1,3 +1,9 @@
+'''
+Homework 2 splitted to modules
+Math constants added (pi, e)
+Data type date added
+'''
+
 from datetime import datetime
 from simple_calc import general as gen, dates
 
