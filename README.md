@@ -1,5 +1,11 @@
 ## Homework tasks from *Advanced Python* course by IT Hillel
 
+**hw3**<br>
+Improve simple calculator:
+Split hw2 to modules
+User enter math expression as a string
+Implement math constants: pi, e
+
 **hw2**<br>
 Implement simple calculator:
 1. User enter two numbers and one operation
