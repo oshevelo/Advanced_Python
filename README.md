@@ -1,11 +1,11 @@
 ## Homework tasks from *Advanced Python* course by IT Hillel
 
 **hw3**<br>
-Improve simple calculator:<br>
-Split hw2 to modules
-User enter math expression as a string
-Implement math constants: pi, e
-Implement date data type
+Improve simple calculator:
+1. Split hw2 to modules
+2. User enter math expression as a string
+3. Implement math constants: pi, e
+4. Implement date data type
 
 **hw2**<br>
 Implement simple calculator:
