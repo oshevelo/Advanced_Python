@@ -1,6 +1,6 @@
 from simpleeval import simple_eval, NameNotDefined
 
-constants = {'pi': '3.14',
+constants = {'pi': '3.14',#Fixme: https://docs.python.org/3.6/library/math.html#constants better map to thees 
              'e': '2.71'}
 
 
