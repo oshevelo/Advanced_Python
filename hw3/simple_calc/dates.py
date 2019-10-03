@@ -11,7 +11,7 @@ def count_entries():
             continue
         if counter < 2:
             print("Operation can't be performed on less than 2 numbers")
-            continue
+            continue#FIXME: no need here
         else:
             break
     return counter
@@ -41,7 +41,7 @@ def evaluate_dates(dates, operation):
     for i in range(len(dates)):
         try:
             result = operations[operation[i]](start_date, timedelta(days=dates[i]))
-        except OverflowError:
+        except OverflowError:#GREAT:)
             return 'Numbers added/subtracted are to big'
         start_date = result
 
