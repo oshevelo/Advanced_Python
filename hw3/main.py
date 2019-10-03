@@ -1,9 +1,8 @@
 from simple_calc import numbers as num, dates
 
-
 def main():
     while True:
-        try:
+        try:#try using smth like this https://github.com/CITGuru/PyInquirer if you are so eager tio make all beautiful:)
             x = int(input('''Enter operation type:
                              1 - mathematical expression
                              2 - operations with dates'''))
@@ -14,7 +13,7 @@ def main():
             break
     calc_types = {1: 'numeric',
                   2: 'date'}
-    calc_type = calc_types[x]
+    calc_type = calc_types[x]#FIXME: please either add check >0 and <3 or use get(x, 'numeric') method of dict(better get as for me) to avoid index error
 
     if calc_type == 'numeric':
         expression = input('Enter mathematical expression:')
